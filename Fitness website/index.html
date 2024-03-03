@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Virtual Fitness</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Virtual Fitness</h2>
+            <p>Get fit from the comfort of your own home with our virtual fitness classes!</p>
+        </section>
+        <section id="classes">
+            <h2>Classes</h2>
+            <div class="class">
+                <h3>Yoga</h3>
+                <p>Join our yoga class to improve flexibility and reduce stress.</p>
+                <button>Join Now</button>
+            </div>
+            <div class="class">
+                <h3>Zumba</h3>
+                <p>Dance your way to fitness with our high-energy Zumba classes.</p>
+                <button>Join Now</button>
+            </div>
+            <!-- Add more classes as needed -->
+        </section>
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <table>
+                <tr>
+                    <th>Class</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>Yoga</td>
+                    <td>Monday &amp; Wednesday, 9:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Zumba</td>
+                    <td>Tuesday &amp; Thursday, 6:00 PM</td>
+                </tr>
+                <!-- Add more rows for additional classes -->
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Virtual Fitness</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
